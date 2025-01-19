@@ -1,7 +1,6 @@
 "use strict";
-// interfaces describe structure of an object 
 // interface can force the existence of certain methods
-class Person {
+class Resident {
     constructor(name) {
         this.name = name;
     }
@@ -12,14 +11,8 @@ class Person {
         console.log(`Beat ${this.name}`);
     }
 }
-const user1 = new Person('Jeremy');
+const user1 = new Resident('Jeremy');
 user1.greet();
-// const obj1 = {
-//     method() {
-//         console.log()
-//     },
-//     method2: () => {
-//         console.log('hi')
-//     }
-// } 
-// obj1.method2()
+const newFun = (a) => {
+    return a;
+};

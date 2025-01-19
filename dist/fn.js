@@ -1,7 +1,8 @@
 "use strict";
 // functions as type 
 function addTwo(a, b) {
-    return a + b;
+    let value = a + b;
+    return value.toString();
 }
 // this says that function1 will be a function 
 // which accept two arguments (both should be number) and return number
