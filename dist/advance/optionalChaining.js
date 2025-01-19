@@ -1,6 +1,7 @@
 "use strict";
 // In case of encountering run time error while accessing nestesd object 
 // use optional chaining 
+// it basically compile to a series of if check
 var _a;
 const anObject = {
     nest: {

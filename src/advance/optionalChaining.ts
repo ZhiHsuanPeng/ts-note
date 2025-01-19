@@ -1,6 +1,6 @@
 // In case of encountering run time error while accessing nestesd object 
 // use optional chaining 
-// it basically complie to a series of if check
+// it basically compile to a series of if check
 
 const anObject = { 
     nest: {
